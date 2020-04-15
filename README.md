@@ -27,3 +27,7 @@ In command line. Make sure you put your data in YYYY-MM-dd formatas string
 python VolEstScript.py "2020-03-10"
 ```
 This should take roughly 2 hours to complete due to TomTom having to prepare the data.
+
+# STEP 3: Explore Data
+- See notebook for details
+- Notice Enrgy Data is stored in EnergyData and TomTom original data is stored in it's own folder with a date as the name
