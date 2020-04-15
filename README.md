@@ -5,7 +5,7 @@
 - clone repo in a directory you want it
 ```linux
 git clone https://github.com/josephseverino/Historic_Energy_Estimate.git
-cd 
+cd Historic_Energy_Estimate
 ```
 activate environment from YAML(.yml) file
 ```linux
