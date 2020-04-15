@@ -1,21 +1,21 @@
 # Historic_Energy_Estimate
 
-# STEP 1: Setup Enviroment
+# STEP 1: Setup Environment
 - In command line
 - clone repo in a directory you want it
 ```linux
 git clone https://github.com/josephseverino/Historic_Energy_Estimate.git
 cd 
 ```
-activate enviroment from YAML(.yml) file
+activate environment from YAML(.yml) file
 ```linux
 conda env create -f environment.yml
 ```
-list your enviroments to ensure you have *energyPipeline*
+list your environments to ensure you have *energyPipeline*
 ```linux
 conda env list
 ```
-activate enviroment
+activate environment
 ```linux
 conda activate energyPipeline
 ```
@@ -30,4 +30,4 @@ This should take roughly 2 hours to complete due to TomTom having to prepare the
 
 # STEP 3: Explore Data
 - See notebook for details
-- Notice Enrgy Data is stored in EnergyData and TomTom original data is stored in it's own folder with a date as the name
+- Notice Energy Data is stored in EnergyData and TomTom original data is stored in it's own folder with a date as the name
