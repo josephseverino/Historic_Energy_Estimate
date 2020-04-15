@@ -19,7 +19,7 @@ activate environment
 ```linux
 conda activate energyPipeline
 ```
-unzip your network files (Network.zip). These are too big to be pushed on GitHub
+unzip your network files (Network.zip). You can do this by double clicking on zip file in MacOS. These are too big to be pushed on GitHub
 
 # STEP 2: Pull Historic Data
 In command line. Make sure you put your data in YYYY-MM-dd formatas string
@@ -29,5 +29,9 @@ python VolEstScript.py "2020-03-10"
 This should take roughly 2 hours to complete due to TomTom having to prepare the data.
 
 # STEP 3: Explore Data
+go to notebook explore_data.ipynb
+```linux
+jupyter notebook
+```
 - See notebook for details
 - Notice Energy Data is stored in EnergyData and TomTom original data is stored in it's own folder with a date as the name
